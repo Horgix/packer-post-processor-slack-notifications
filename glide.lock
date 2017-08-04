@@ -1,0 +1,57 @@
+hash: 4deb5036a92c3e058eae3d5b18de660852d147fe8e3fd50ff9248a4d4c43f7a9
+updated: 2017-08-02T15:30:11.131394306+02:00
+imports:
+- name: github.com/ashwanthkumar/slack-go-webhook
+  version: 58b9a44feb242f0ced1a85304b1b6af57b770234
+- name: github.com/hashicorp/errwrap
+  version: 7554cd9344cec97297fa6649b055a8c98c2a1e55
+- name: github.com/hashicorp/go-checkpoint
+  version: a8d0786e7fa88adb6b3bcaa341a99af7f9740671
+- name: github.com/hashicorp/go-cleanhttp
+  version: 3573b8b52aa7b37b9358d966a898feb387f62437
+- name: github.com/hashicorp/go-multierror
+  version: 83588e72410abfbe4df460eeb6f30841ae47d4c4
+- name: github.com/hashicorp/go-uuid
+  version: 64130c7a86d732268a38cb04cfbaf0cc987fda98
+- name: github.com/hashicorp/go-version
+  version: 03c5bf6be031b6dd45afec16b1cf94fc8938bc77
+- name: github.com/hashicorp/packer
+  version: c0ddb4a044551f3c967ca36f612a33ce13e215f0
+  subpackages:
+  - common
+  - common/uuid
+  - packer
+  - packer/plugin
+  - packer/rpc
+  - template
+  - template/interpolate
+  - version
+- name: github.com/hashicorp/yamux
+  version: d1caa6c97c9fc1cc9e83bbe34d0603f9ff0ce8bd
+- name: github.com/mitchellh/go-fs
+  version: 7bae45d9a684750e82b97ff320c82556614e621b
+  subpackages:
+  - fat
+- name: github.com/mitchellh/iochan
+  version: 87b45ffd0e9581375c491fef3d32130bb15c5bd7
+- name: github.com/mitchellh/mapstructure
+  version: d0303fe809921458f417bcf828397a65db30a7e4
+- name: github.com/mitchellh/multistep
+  version: 391576a156a54cfbb4cf5d5eda40cf6ffa3e3a4d
+- name: github.com/mitchellh/reflectwalk
+  version: 63d60e9d0dbc60cf9164e6510889b0db6683d98c
+- name: github.com/moul/http2curl
+  version: 4e24498b31dba4683efb9d35c1c8a91e2eda28c8
+- name: github.com/parnurzeal/gorequest
+  version: 5bf13be198787abbed057fb7c4007f372083a0f5
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/ugorji/go
+  version: 5efa3251c7f7d05e5d9704a69a984ec9f1386a40
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: f5079bd7f6f74e23c4d65efa0f4ce14cbd6a3c0f
+  subpackages:
+  - publicsuffix
+testImports: []
