@@ -1,0 +1,8 @@
+package: packer-post-processor-slack-notifications
+import:
+- package: github.com/hashicorp/packer
+  version: v1.0.3
+  subpackages:
+  - packer/plugin
+- package: github.com/ashwanthkumar/slack-go-webhook
+  version: 58b9a44feb242f0ced1a85304b1b6af57b770234
